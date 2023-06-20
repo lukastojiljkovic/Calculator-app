@@ -22,12 +22,14 @@
         android:layout_weight="1"
         android:background="@color/gray"
         android:orientation="vertical"
+        android:gravity="center"
         >
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
         android:orientation="horizontal"
+        android:gravity="center"
     >
         <Button
             android:id="@+id/BtSeven"
@@ -36,6 +38,7 @@
             android:layout_weight="1"
             android:text="7"
             android:background="@drawable/rectangle_button_background"
+            android:textSize="32sp"
             android:layout_margin="5dp"
 
             tools:ignore="ButtonStyle,HardcodedText" />
@@ -47,6 +50,7 @@
             android:text="8"
             android:layout_margin="5dp"
             android:background="@drawable/rectangle_button_background"
+            android:textSize="32sp"
             tools:ignore="HardcodedText" />
         <Button
             android:id="@+id/BtNine"
@@ -56,6 +60,7 @@
             android:text="9"
             android:layout_margin="5dp"
             android:background="@drawable/rectangle_button_background"
+            android:textSize="32sp"
             tools:ignore="HardcodedText" />
         <Button
             android:id="@+id/BtDivide"
@@ -65,6 +70,7 @@
             android:text="/"
             android:layout_margin="5dp"
             android:background="@drawable/rectangle_button_background"
+            android:textSize="32sp"
             tools:ignore="HardcodedText" />
         </LinearLayout>
     <LinearLayout
@@ -72,6 +78,7 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:orientation="horizontal"
+        android:gravity="center"
         >
         <Button
             android:id="@+id/BtFour"
@@ -81,6 +88,7 @@
             android:text="4"
             android:layout_margin="5dp"
             android:background="@drawable/rectangle_button_background"
+            android:textSize="32sp"
             tools:ignore="ButtonStyle,HardcodedText" />
         <Button
             android:id="@+id/BtFive"
@@ -90,6 +98,7 @@
             android:text="5"
             android:layout_margin="5dp"
             android:background="@drawable/rectangle_button_background"
+            android:textSize="32sp"
             tools:ignore="HardcodedText" />
         <Button
             android:id="@+id/BtSix"
@@ -99,6 +108,7 @@
             android:text="6"
             android:layout_margin="5dp"
             android:background="@drawable/rectangle_button_background"
+            android:textSize="32sp"
             tools:ignore="HardcodedText" />
         <Button
             android:id="@+id/BtMultiply"
@@ -106,8 +116,10 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="*"
+            android:paddingTop="15dp"
             android:layout_margin="5dp"
             android:background="@drawable/rectangle_button_background"
+            android:textSize="32sp"
             tools:ignore="HardcodedText" />
     </LinearLayout>
     <LinearLayout
@@ -115,6 +127,7 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:orientation="horizontal"
+        android:gravity="center"
         >
         <Button
             android:id="@+id/BtOne"
@@ -124,6 +137,7 @@
             android:text="1"
             android:layout_margin="5dp"
             android:background="@drawable/rectangle_button_background"
+            android:textSize="32sp"
             tools:ignore="ButtonStyle,HardcodedText" />
         <Button
             android:id="@+id/BtTwo"
@@ -133,6 +147,7 @@
             android:text="2"
             android:layout_margin="5dp"
             android:background="@drawable/rectangle_button_background"
+            android:textSize="32sp"
             tools:ignore="HardcodedText" />
         <Button
             android:id="@+id/BtThree"
@@ -142,6 +157,7 @@
             android:text="3"
             android:layout_margin="5dp"
             android:background="@drawable/rectangle_button_background"
+            android:textSize="32sp"
             tools:ignore="HardcodedText" />
         <Button
             android:id="@+id/BtMinus"
@@ -151,6 +167,7 @@
             android:text="-"
             android:layout_margin="5dp"
             android:background="@drawable/rectangle_button_background"
+            android:textSize="32sp"
             tools:ignore="HardcodedText" />
     </LinearLayout>
     <LinearLayout
@@ -158,6 +175,7 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:orientation="horizontal"
+        android:gravity="center"
         >
         <Button
             android:id="@+id/BtZero"
@@ -167,6 +185,7 @@
             android:text="0"
             android:layout_margin="5dp"
             android:background="@drawable/rectangle_button_background"
+            android:textSize="32sp"
             tools:ignore="ButtonStyle,HardcodedText" />
         <Button
             android:id="@+id/BtClear"
@@ -176,6 +195,7 @@
             android:text="C"
             android:layout_margin="5dp"
             android:background="@drawable/rectangle_button_background"
+            android:textSize="32sp"
             tools:ignore="HardcodedText" />
         <Button
             android:id="@+id/BtPlus"
@@ -185,13 +205,15 @@
             android:text="+"
             android:layout_margin="5dp"
             android:background="@drawable/rectangle_button_background"
+            android:textSize="32sp"
             tools:ignore="HardcodedText" />
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:orientation="horizontal" >
+        android:orientation="horizontal"
+        android:gravity="center">
     <Button
         android:id="@+id/BtEqual"
         android:layout_width="0dp"
@@ -200,6 +222,7 @@
         android:text="="
         android:layout_margin="5dp"
         android:background="@drawable/rectangle_button_background"
+        android:textSize="48sp"
         tools:ignore="HardcodedText" />
 </LinearLayout>
     </LinearLayout>
