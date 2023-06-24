@@ -3,8 +3,7 @@
 <!-- rectangle_button_background.xml -->
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <solid android:color="#DAB83C" /> <!-- Change the color as per your preference -->
-    <corners android:radius="5dp" /> <!-- Set the radius to 0dp for sharp corners -->
-    <stroke android:width="2dp" android:color="#000000" /> <!-- Change the stroke width and color as per your preference -->
-
+    <solid android:color="@color/my_light_primary" /> <!-- Change the color as per your preference -->
+    <corners android:radius="10dp" /> <!-- Set the radius to 0dp for sharp corners -->
+    <stroke android:width="0dp" android:color="#00000000" /> <!-- Change the stroke width and color as per your preference -->
 </shape>

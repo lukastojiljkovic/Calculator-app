@@ -10,11 +10,11 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="300dp"
-        android:background="@color/light_gray"
         android:padding="15dp"
         android:textSize="48sp"
         android:fontFamily="monospace"
         android:gravity="end|bottom"
+        style="@style/CustomTextViewStyle"
         />
     <LinearLayout
         android:layout_width="match_parent"
@@ -36,8 +36,10 @@
                 android:layout_weight="1"
                 android:text="7"
                 android:background="@drawable/rectangle_button_background"
+                android:shadowColor="@color/my_light_primary"
                 android:onClick="onDigit"
                 android:textSize="32sp"
+                style="@style/ButtonStyle"
                 android:layout_margin="5dp"
 
                 tools:ignore="ButtonStyle,HardcodedText" />
@@ -51,6 +53,7 @@
                 android:background="@drawable/rectangle_button_background"
                 android:onClick="onDigit"
                 android:textSize="32sp"
+                style="@style/ButtonStyle"
                 tools:ignore="HardcodedText" />
             <Button
                 android:id="@+id/BtNine"
@@ -62,6 +65,7 @@
                 android:background="@drawable/rectangle_button_background"
                 android:onClick="onDigit"
                 android:textSize="32sp"
+                style="@style/ButtonStyle"
                 tools:ignore="HardcodedText" />
             <Button
                 android:id="@+id/BtDivide"
@@ -72,6 +76,7 @@
                 android:layout_margin="5dp"
                 android:background="@drawable/rectangle_button_background"
                 android:textSize="32sp"
+                style="@style/ButtonStyle"
                 tools:ignore="HardcodedText" />
             </LinearLayout>
             <LinearLayout
@@ -90,6 +95,7 @@
                     android:background="@drawable/rectangle_button_background"
                     android:onClick="onDigit"
                     android:textSize="32sp"
+                    style="@style/ButtonStyle"
                     tools:ignore="ButtonStyle,HardcodedText" />
                 <Button
                     android:id="@+id/BtFive"
@@ -101,6 +107,7 @@
                     android:background="@drawable/rectangle_button_background"
                     android:onClick="onDigit"
                     android:textSize="32sp"
+                    style="@style/ButtonStyle"
                     tools:ignore="HardcodedText" />
                 <Button
                     android:id="@+id/BtSix"
@@ -112,6 +119,7 @@
                     android:background="@drawable/rectangle_button_background"
                     android:onClick="onDigit"
                     android:textSize="32sp"
+                    style="@style/ButtonStyle"
                     tools:ignore="HardcodedText" />
                 <Button
                     android:id="@+id/BtMultiply"
@@ -123,6 +131,7 @@
                     android:layout_margin="5dp"
                     android:background="@drawable/rectangle_button_background"
                     android:textSize="32sp"
+                    style="@style/ButtonStyle"
                     tools:ignore="HardcodedText" />
             </LinearLayout>
             <LinearLayout
@@ -141,6 +150,7 @@
                     android:background="@drawable/rectangle_button_background"
                     android:onClick="onDigit"
                     android:textSize="32sp"
+                    style="@style/ButtonStyle"
                     tools:ignore="ButtonStyle,HardcodedText" />
                 <Button
                     android:id="@+id/BtTwo"
@@ -152,6 +162,7 @@
                     android:background="@drawable/rectangle_button_background"
                     android:onClick="onDigit"
                     android:textSize="32sp"
+                    style="@style/ButtonStyle"
                     tools:ignore="HardcodedText" />
                 <Button
                     android:id="@+id/BtThree"
@@ -163,6 +174,7 @@
                     android:background="@drawable/rectangle_button_background"
                     android:onClick="onDigit"
                     android:textSize="32sp"
+                    style="@style/ButtonStyle"
                     tools:ignore="HardcodedText" />
                 <Button
                     android:id="@+id/BtMinus"
@@ -173,6 +185,7 @@
                     android:layout_margin="5dp"
                     android:background="@drawable/rectangle_button_background"
                     android:textSize="40sp"
+                    style="@style/ButtonStyle"
                     tools:ignore="HardcodedText" />
             </LinearLayout>
             <LinearLayout
@@ -191,6 +204,7 @@
                     android:background="@drawable/rectangle_button_background"
                     android:onClick="onDigit"
                     android:textSize="32sp"
+                    style="@style/ButtonStyle"
                     tools:ignore="ButtonStyle,HardcodedText" />
                 <Button
                     android:id="@+id/BtClear"
@@ -201,6 +215,7 @@
                     android:layout_margin="5dp"
                     android:background="@drawable/rectangle_button_background"
                     android:textSize="32sp"
+                    style="@style/ButtonStyle"
                     tools:ignore="HardcodedText" />
                 <Button
                     android:id="@+id/BtPlus"
@@ -211,6 +226,7 @@
                     android:layout_margin="5dp"
                     android:background="@drawable/rectangle_button_background"
                     android:textSize="32sp"
+                    style="@style/ButtonStyle"
                     tools:ignore="HardcodedText" />
             </LinearLayout>
             <LinearLayout
@@ -228,6 +244,7 @@
                 android:layout_margin="5dp"
                 android:background="@drawable/rectangle_button_background"
                 android:textSize="48sp"
+                style="@style/ButtonStyle"
                 tools:ignore="HardcodedText" />
             </LinearLayout>
     </LinearLayout>

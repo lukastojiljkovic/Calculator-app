@@ -1,8 +1,27 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.Calculatorapp" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.Calculatorapp" parent="Theme.Material3.DayNight">
         <!-- Customize your dark theme here. -->
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="colorButtonNormal">#FF0000</item> <!-- Change this value to your desired button color -->
+        <item name="android:navigationBarColor">@color/gray_dark</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="colorPrimary">@color/my_dark_primary</item>
+        <item name="android:windowActionBar">true</item>
+        <item name="android:textColor">@color/textColorPrimaryDark</item>
+    </style>
+    <style name="Theme.Calculatorapp" parent="Base.Theme.Calculatorapp">
+        <!-- Add this item to make status bar icons dark -->
+        <item name="android:windowActionBar">true</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:background">@color/gray_dark</item> <!-- Change this value to set the action bar color -->
+    </style>
+    <style name="ButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">@color/textColorPrimaryDark</item> <!-- Set the desired text color for buttons in dark mode -->
+    </style>
+    <style name="CustomTextViewStyle">
+        <item name="android:background">@color/gray_dark</item> <!-- Set the background drawable or color resource -->
+        <item name="android:textColor">@color/textColorPrimaryDark</item> <!-- Set the text color resource -->
     </style>
 </resources>

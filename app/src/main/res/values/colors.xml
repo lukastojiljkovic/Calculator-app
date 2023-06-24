@@ -3,9 +3,12 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="light_gray">#D6D6D6</color>
+    <color name="gray_dark">#292929</color>
     <color name="gray">#FFFFFF</color>
-    <color name="my_light_primary">#8DC0D5</color>
-    <color name="my_dark_primary">#1E4587</color>
+    <color name="my_light_primary">#0BA4BF</color>
+    <color name="my_dark_primary">#262E3D</color>
     <color name="textColorPrimary">#333333</color>
     <color name="textColorPrimaryDark">#CCCCCC</color>
+    <color name="dark_gray">#404040</color>
+    <color name="dark_text">#BCBCBC</color>
 </resources>
